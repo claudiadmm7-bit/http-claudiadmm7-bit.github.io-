@@ -22,7 +22,7 @@ OUT = ROOT / "docs" / "assets" / "images"
 
 # Uma foto por marca (a que aparece no cartão do cupom). Para trocar,
 # mude o nome aqui, rode o script e atualize o site.json.
-CARD_PHOTOS = ("ysy/ysy-04", "avvi/avvi-02", "gloss-vyllage/gloss-01", "pr-team/pr-team-01")
+CARD_PHOTOS = ("ysy/ysy-04", "avvi/avvi-04", "gloss-vyllage/gloss-01", "pr-team/pr-team-logo")
 CARD_WIDTHS = (240, 480)
 AVATAR_WIDTHS = (240, 480)
 SRGB = ImageCms.createProfile("sRGB")

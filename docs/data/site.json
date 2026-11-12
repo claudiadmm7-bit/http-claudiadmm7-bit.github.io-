@@ -59,12 +59,12 @@
       "ctaLabel": "Visitar a loja",
       "destinationNote": "",
       "image": {
-        "src": "assets/images/avvi/avvi-02-480.jpg",
-        "srcset": "assets/images/avvi/avvi-02-240.webp 240w, assets/images/avvi/avvi-02-480.webp 480w",
+        "src": "assets/images/avvi/avvi-04-480.jpg",
+        "srcset": "assets/images/avvi/avvi-04-240.webp 240w, assets/images/avvi/avvi-04-480.webp 480w",
         "width": 480,
         "height": 853,
-        "alt": "Clau em selfie no espelho, usando macaquinho fitness vinho.",
-        "position": "50% 40%"
+        "alt": "Clau de costas, com top branco de alças cruzadas e legging verde-água com faixa amarela.",
+        "position": "50% 45%"
       }
     },
     {
@@ -90,15 +90,15 @@
       "enabled": true,
       "coupon": "CLAU",
       "url": "https://prteam.com.br/clau",
-      "ctaLabel": "Fazer a pré-seleção",
-      "destinationNote": "Abre a pré-seleção de alunos da PR Team.",
+      "ctaLabel": "Fazer minha pré-seleção",
+      "destinationNote": "Em busca do shape? Vem pro time.",
       "image": {
-        "src": "assets/images/pr-team/pr-team-01-480.jpg",
-        "srcset": "assets/images/pr-team/pr-team-01-240.webp 240w, assets/images/pr-team/pr-team-01-480.webp 480w",
+        "src": "assets/images/pr-team/pr-team-logo-480.jpg",
+        "srcset": "assets/images/pr-team/pr-team-logo-240.webp 240w, assets/images/pr-team/pr-team-logo-480.webp 480w",
         "width": 480,
-        "height": 853,
-        "alt": "Clau tirando selfie no espelho da academia, de blusa preta e colar dourado.",
-        "position": "50% 25%"
+        "height": 481,
+        "alt": "Logo da PR Team: letras brancas em fundo preto.",
+        "position": "50% 50%"
       }
     }
   ],
