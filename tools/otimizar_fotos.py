@@ -22,7 +22,7 @@ OUT = ROOT / "docs" / "assets" / "images"
 
 # Uma foto por marca (a que aparece no cartão do cupom). Para trocar,
 # mude o nome aqui, rode o script e atualize o site.json.
-CARD_PHOTOS = ("ysy/ysy-04", "avvi/avvi-02", "gloss-vyllage/gloss-01")
+CARD_PHOTOS = ("ysy/ysy-04", "avvi/avvi-02", "gloss-vyllage/gloss-01", "pr-team/pr-team-01")
 CARD_WIDTHS = (240, 480)
 AVATAR_WIDTHS = (240, 480)
 SRGB = ImageCms.createProfile("sRGB")
@@ -85,15 +85,15 @@ def main() -> int:
         sizes = save_set(im, OUT / name, CARD_WIDTHS, 480)
         report[name] = {"width": sizes[480][0], "height": sizes[480][1]}
 
-    portrait = load(SRC / "ysy" / "ysy-02.jpg")
+    portrait = load(SRC / "perfil" / "clau-perfil-2.jpg")
 
-    # Foto redonda do topo: recorte quadrado do rosto em ysy-02.
-    avatar = portrait.crop((150, 200, 2150, 2200))
+    # Foto redonda do topo: recorte quadrado com o rosto no centro.
+    avatar = portrait.crop((440, 560, 2500, 2620))
     sizes = save_set(avatar, OUT / "perfil" / "clau-perfil", AVATAR_WIDTHS, 480)
     report["perfil/clau-perfil"] = {"width": sizes[480][0], "height": sizes[480][1]}
 
     # Retrato vertical (4:5) usado na imagem de compartilhamento.
-    hero = portrait.crop((0, 0, portrait.width, round(portrait.width * 5 / 4)))
+    hero = portrait.crop((0, 300, portrait.width, 300 + round(portrait.width * 5 / 4)))
 
     # Imagem de compartilhamento (1200x630): retrato à direita, nome à esquerda.
     save_share_image(hero)

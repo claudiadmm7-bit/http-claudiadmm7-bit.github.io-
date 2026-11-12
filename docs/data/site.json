@@ -9,7 +9,7 @@
       "srcset": "assets/images/perfil/clau-perfil-240.webp 240w, assets/images/perfil/clau-perfil-480.webp 480w",
       "width": 480,
       "height": 480,
-      "alt": "Foto de perfil de Clau, com cabelo escuro solto, em estúdio."
+      "alt": "Foto de perfil de Clau, com cabelo escuro ondulado, olhando por cima do ombro, em estúdio."
     }
   },
   "instagram": {
@@ -82,6 +82,23 @@
         "height": 720,
         "alt": "Clau em estúdio, de vestido longo marrom, olhando por cima do ombro.",
         "position": "50% 20%"
+      }
+    },
+    {
+      "id": "pr-team",
+      "name": "PR Team",
+      "enabled": true,
+      "coupon": "CLAU",
+      "url": "https://prteam.com.br/clau",
+      "ctaLabel": "Fazer a pré-seleção",
+      "destinationNote": "Abre a pré-seleção de alunos da PR Team.",
+      "image": {
+        "src": "assets/images/pr-team/pr-team-01-480.jpg",
+        "srcset": "assets/images/pr-team/pr-team-01-240.webp 240w, assets/images/pr-team/pr-team-01-480.webp 480w",
+        "width": 480,
+        "height": 853,
+        "alt": "Clau tirando selfie no espelho da academia, de blusa preta e colar dourado.",
+        "position": "50% 25%"
       }
     }
   ],
