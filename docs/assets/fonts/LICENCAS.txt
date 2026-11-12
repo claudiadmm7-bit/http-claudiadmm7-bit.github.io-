@@ -1,0 +1,8 @@
+Fontes incluídas neste site (subconjunto latino, formato WOFF2):
+
+- Fraunces — Undercase Type. Licença SIL Open Font License 1.1.
+  https://fonts.google.com/specimen/Fraunces
+- DM Sans — Colophon Foundry / Google. Licença SIL Open Font License 1.1.
+  https://fonts.google.com/specimen/DM+Sans
+
+Texto da licença: https://openfontlicense.org/open-font-license-official-text/

@@ -1,0 +1,8 @@
+materials/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# anotações internas (não publicar)
+PROMPT.md
+LEIA-ME.md

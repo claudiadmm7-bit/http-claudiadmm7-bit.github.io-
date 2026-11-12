@@ -1,0 +1,93 @@
+{
+  "profile": {
+    "name": "Clau",
+    "handle": "@diasdaclaudia",
+    "tagline": "Lifestyle, fitness e beleza.",
+    "intro": "Criadora de conteúdo, videomaker, social media e modelo publicitária.",
+    "portrait": {
+      "src": "assets/images/perfil/clau-perfil-480.jpg",
+      "srcset": "assets/images/perfil/clau-perfil-240.webp 240w, assets/images/perfil/clau-perfil-480.webp 480w",
+      "width": 480,
+      "height": 480,
+      "alt": "Foto de perfil de Clau, com cabelo escuro solto, em estúdio."
+    }
+  },
+  "instagram": {
+    "label": "Instagram",
+    "handle": "@diasdaclaudia",
+    "url": "https://www.instagram.com/diasdaclaudia/"
+  },
+  "labels": {
+    "seeCoupons": "Ver cupons",
+    "contact": "Fale comigo",
+    "couponLabel": "Cupom",
+    "copyButton": "Copiar",
+    "copied": "Copiado!",
+    "copiedStatus": "Cupom {code} copiado. Agora é só colar no carrinho da loja.",
+    "copyFailed": "Não deu para copiar automaticamente. O código {code} ficou selecionado: toque e segure para copiar.",
+    "newTab": "(abre em nova aba)"
+  },
+  "coupons": {
+    "title": "Meus cupons",
+    "howTo": "Copie o cupom, entre na loja e cole o código ao finalizar a compra.",
+    "note": "Validade e condições de cada cupom são definidas pela própria marca."
+  },
+  "partners": [
+    {
+      "id": "ysy",
+      "name": "YSY Acessórios",
+      "enabled": true,
+      "coupon": "CLAU10",
+      "url": "https://creaty.la/claudiadmm7/O4winju",
+      "ctaLabel": "Visitar a loja",
+      "destinationNote": "",
+      "image": {
+        "src": "assets/images/ysy/ysy-04-480.jpg",
+        "srcset": "assets/images/ysy/ysy-04-240.webp 240w, assets/images/ysy/ysy-04-480.webp 480w",
+        "width": 480,
+        "height": 640,
+        "alt": "Clau de camiseta branca, com colar, pulseiras e anéis dourados.",
+        "position": "50% 45%"
+      }
+    },
+    {
+      "id": "avvi",
+      "name": "Avvi",
+      "enabled": true,
+      "coupon": "CLAU",
+      "url": "https://www.avvi.com.br/hotsite/neo-wild?gad_source=1&gad_campaignid=19697048338&gclid=Cj0KCQiAwdDXBhDuARIsAFdLukla5-X93YXNXM8o6OhbqqvBpzUtbuecJ0J6YazezubaMu-R8nKpUvYaArotEALw_wcB",
+      "ctaLabel": "Visitar a loja",
+      "destinationNote": "",
+      "image": {
+        "src": "assets/images/avvi/avvi-02-480.jpg",
+        "srcset": "assets/images/avvi/avvi-02-240.webp 240w, assets/images/avvi/avvi-02-480.webp 480w",
+        "width": 480,
+        "height": 853,
+        "alt": "Clau em selfie no espelho, usando macaquinho fitness vinho.",
+        "position": "50% 40%"
+      }
+    },
+    {
+      "id": "gloss-vyllage",
+      "name": "Gloss Vyllage",
+      "enabled": true,
+      "coupon": "claudia13",
+      "url": "https://www.instagram.com/glossvyllage?dlrf=MW1xb2NiY3Q0OGVmbQ==",
+      "ctaLabel": "Ver no Instagram",
+      "destinationNote": "Abre o perfil da marca no Instagram.",
+      "image": {
+        "src": "assets/images/gloss-vyllage/gloss-01-480.jpg",
+        "srcset": "assets/images/gloss-vyllage/gloss-01-240.webp 240w, assets/images/gloss-vyllage/gloss-01-480.webp 480w",
+        "width": 480,
+        "height": 720,
+        "alt": "Clau em estúdio, de vestido longo marrom, olhando por cima do ombro.",
+        "position": "50% 20%"
+      }
+    }
+  ],
+  "work": {
+    "title": "Vamos trabalhar juntos?",
+    "text": "Parcerias, publicidade e produção de conteúdo: me chama no direct do Instagram.",
+    "ctaLabel": "Falar pelo Instagram"
+  }
+}
